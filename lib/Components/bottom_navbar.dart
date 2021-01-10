@@ -19,39 +19,29 @@ class _BottomNavBarState extends State<BottomNavBar> {
           icon: Icon(
             Icons.home,
           ),
-          title: Text(
-            'Home',
-          ),
+          label: 'Home',
         ),
         BottomNavigationBarItem(
           icon: Icon(
             Icons.explore,
           ),
-          title: Text(
-            'Browse',
-          ),
+          label: 'Browse',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.add_circle),
-          title: Text(
-            'Add Story',
-          ),
+          label: 'Add Story',
         ),
         BottomNavigationBarItem(
           icon: Icon(
             Icons.local_library,
           ),
-          title: Text(
-            'Library',
-          ),
+          label: 'Library',
         ),
         BottomNavigationBarItem(
           icon: Icon(
             Icons.account_circle,
           ),
-          title: Text(
-            'Account',
-          ),
+          label: 'Account',
         ),
       ],
     );
